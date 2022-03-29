@@ -5,6 +5,62 @@ body{
 
 }
 
+.gorne-menu{
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+.navigator{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    right: 25%;
+}
+
+.fa, .fa-search{
+    position: relative;
+    left: 0px;
+}
+
+.gorne-menu ul li{
+    float: left;
+}
+.gorne-menu ul input{
+    position: relative;
+    width: 200px;
+
+}
+.przycisk, .przycisk3{
+    /*position: absolute;
+
+    width: 150px;
+    padding: 20px 10px;*/
+    background-color: #217BF4;
+    border-radius: 14px;
+    border-color: #217BF4;
+    color: #ffffff;
+    font-weight: 600;
+    right: 10%;
+}
+
+.przycisk2{
+    border-radius: 14px;
+    color: #217BF4;
+    width: 150px;
+    padding: 20px 10px;
+    font-weight: 500;
+    border: 1px solid;
+}
+
+.belka{
+    position: absolute;
+    width: 100vw;
+    height: 1px;
+    background-color: #217BF4;
+    top:150px; 
+}
+/* Początek stopki */
 .stopka{
     background-color: #2B2B39;
     width: 100vw;
@@ -72,13 +128,15 @@ body{
 
 }
 .dolneLogo{
-    position: absolute;
+    position: relative;
     background-color: #20202D;
-    width: 100vh;
-    bottom: 0px;
+    width: 100vw;
+    height: 70px;
 }
 
 ul{
     list-style-type: none;
     display: inline-block;
 }
+
+/*Koniec stopki*/
