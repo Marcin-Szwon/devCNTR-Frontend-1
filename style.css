@@ -7,15 +7,23 @@ body{
 
 .gorne-menu{
     width: 100vw;
-    height: 200px;
+    height: 700px;
     background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
 }
 
-.navigator{
+.logo{
+    margin-left: 100px;
+    margin-top: 30px;
     position: absolute;
+
+}
+
+.navigator{
     width: 300px;
     height: 100px;
-    right: 25%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
 }
 
 .fa, .fa-search{
@@ -23,25 +31,56 @@ body{
     left: 0px;
 }
 
+.gorne-menu ul{
+    margin-left: 300px;
+}
+
 .gorne-menu ul li{
     float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    color:#656464;
+    font-weight: 500;
 }
 .gorne-menu ul input{
     position: relative;
     width: 200px;
 
 }
-.przycisk, .przycisk3{
-    /*position: absolute;
+.ludzie{
+    margin-right: 100px;
+}
+.gorne-menu h1, p{
+    margin-left: 100px;
+}
+.przycisk{
+    margin-top: 5px;
+}
 
-    width: 150px;
-    padding: 20px 10px;*/
+.przycisk2{
+    margin-left: 100px;
+}
+.przycisk, .przycisk3{
+    width: 130px;
+    height: 50px;
+    justify-content: center;
     background-color: #217BF4;
     border-radius: 14px;
     border-color: #217BF4;
     color: #ffffff;
     font-weight: 600;
     right: 10%;
+}
+.przycisk5{
+    width: 130px;
+    height: 50px;
+    justify-content: center;
+    background-color: #217BF4;
+    border-radius: 14px;
+    border-color: #217BF4;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 100px;
 }
 
 .przycisk2{
@@ -53,12 +92,15 @@ body{
     border: 1px solid;
 }
 
+.ludzie{
+    float: right;
+}
 .belka{
     position: absolute;
     width: 100vw;
-    height: 1px;
+    height: 0.09px;
     background-color: #217BF4;
-    top:150px; 
+    top:90px; 
 }
 /* Początek stopki */
 .stopka{
