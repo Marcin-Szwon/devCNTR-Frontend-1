@@ -1,0 +1,137 @@
+.container1 h4{
+    margin-left: 100px;
+    color: #217BF4;
+}
+
+.container1 h1{
+    margin-left: 100px;
+    font-size: 40px;
+    position: relative;
+}
+
+.zdjecia{
+    float: right;
+    margin-left: 80px;
+}
+.container1 p{
+    margin-left: 100px;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+.container1 ul{
+    margin: 20px;
+    padding: 0;
+}
+.container1 ul li{
+    list-style: circle;
+    margin-left: 100px;
+}
+
+.right{
+    float: right;
+    border-radius: 14px;
+    margin-right: 100px;
+}
+
+.clear{
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.top{
+    margin-top: -190px;
+    margin-right: 20px;
+}
+.why-join{
+    position: relative;
+    height: 500px;
+}
+
+.container1-5{
+    margin-top:30px;
+}
+.rating, .awards{
+    border: 1px solid black;
+    float: left;
+    position: relative;
+    background: white;
+    width: 250px;
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 14px;
+    box-shadow: 0px 26px 49px rgba(146,165,184,0.14);
+}
+
+.rating .star{
+    position: absolute;
+    margin-left: 20px;  
+
+}
+
+.rating h4{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.rating span{
+    margin-left: 90px;
+
+}
+
+.rating .people{
+    position: absolute;
+    margin-top: -12px;
+
+}
+
+.rating p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.rating .join{
+    margin-left: 20px;
+}
+
+.awards .star{
+    position: absolute;
+    margin-left: 20px;  
+
+}
+
+.awards h4{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.awards span{
+    margin-left: 60px;
+
+}
+
+.awards .people{
+    position: absolute;
+    margin-top: -12px;
+
+}
+
+.awards p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.awards h5{
+    margin-left: 20px;
+}
+
+.awards .go{
+    margin-left: 20px;
+}

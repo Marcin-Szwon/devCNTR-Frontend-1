@@ -39,8 +39,11 @@ body{
     float: left;
     margin-left: 20px;
     margin-top: 20px;
-    color:#656464;
     font-weight: 500;
+}
+
+.grey{
+    color: #636363;
 }
 .gorne-menu ul input{
     position: relative;
@@ -49,8 +52,9 @@ body{
 }
 
 a{
-    text-decoration: none;  
+    text-decoration: none; 
     color: white;
+ 
 }
 
 .blue{
