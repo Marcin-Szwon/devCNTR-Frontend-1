@@ -51,9 +51,11 @@
 
 .container1-5{
     margin-top:30px;
+    width: 100vw;
+    height: 350px;
+    position: relative;
 }
 .rating, .awards{
-    border: 1px solid black;
     float: left;
     position: relative;
     background: white;
@@ -62,6 +64,19 @@
     margin-left: 100px;
     border-radius: 14px;
     box-shadow: 0px 26px 49px rgba(146,165,184,0.14);
+}
+
+.our-achievement{
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin-left: 100px;
+    border-radius: 14px;
+}
+
+.our-achievement button{
+    margin-top: 20px;
+    margin-left: 0px;
 }
 
 .rating .star{
@@ -134,4 +149,8 @@
 
 .awards .go{
     margin-left: 20px;
+}
+
+.our-achivement{
+
 }
