@@ -1,8 +1,21 @@
 .container2{
     position: relative;
+    background: linear-gradient(0deg, rgba(241,246,253,0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
     width: 100vw;
     height: 600px;
     margin-top: 30px;
+}
+
+.float_div{
+    display: inline-block;
+    width: 100vw;
+    height: 600px;
+    float: left;   
+
+}
+
+.members, .groups{
+    width: 30vw;
 }
 
 .middle{
