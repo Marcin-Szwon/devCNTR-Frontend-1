@@ -136,7 +136,6 @@ const deleteTask = e =>{
         $alertInfo.innerText = "Brak zadań na liście"
     }
 }
-document.addEventListener('DOMContentLoaded',main)
 
 const saveLocalTodos = todo =>{
     let todos
@@ -161,7 +160,7 @@ const getTodos = () =>{
         console.log($idNumber)
         $newTask = document.createElement('li')
         $newTask.innerText = todo
-        $newTask.setAttribute('id', 'todo-${idNumber}')
+        $newTask.setAttribute('id', `todo-${$idNumber}`)
         $ulList.appendChild($newTask)
     
         $todoInput.value = ''
@@ -184,3 +183,5 @@ const removeLocalTodos = todo =>{
     todos.splice(todos.indexOf(todoIndex),1)
     localStorage.setItem("todos", JSON.stringify(todos))
 }
+
+document.addEventListener('DOMContentLoaded',main)
